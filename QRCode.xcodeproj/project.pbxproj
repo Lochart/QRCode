@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		952B542D1C89FD01001FEC1C /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 952B542C1C89FD01001FEC1C /* beep.mp3 */; };
+		95386D0A1C8851ED00549B3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95386D091C8851ED00549B3A /* main.m */; };
+		95386D0D1C8851ED00549B3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95386D0C1C8851ED00549B3A /* AppDelegate.m */; };
+		95386D101C8851ED00549B3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95386D0F1C8851ED00549B3A /* ViewController.m */; };
+		95386D131C8851ED00549B3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95386D111C8851ED00549B3A /* Main.storyboard */; };
+		95386D151C8851ED00549B3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95386D141C8851ED00549B3A /* Assets.xcassets */; };
+		95386D181C8851ED00549B3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95386D161C8851ED00549B3A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		952B542C1C89FD01001FEC1C /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
+		95386D051C8851ED00549B3A /* QRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95386D091C8851ED00549B3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95386D0B1C8851ED00549B3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95386D0C1C8851ED00549B3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95386D0E1C8851ED00549B3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		95386D0F1C8851ED00549B3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95386D121C8851ED00549B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95386D141C8851ED00549B3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95386D171C8851ED00549B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95386D191C8851ED00549B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95386D021C8851ED00549B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		952B542E1C89FD11001FEC1C /* SIgnal */ = {
+			isa = PBXGroup;
+			children = (
+				952B542C1C89FD01001FEC1C /* beep.mp3 */,
+			);
+			name = SIgnal;
+			sourceTree = "<group>";
+		};
+		95386CFC1C8851ED00549B3A = {
+			isa = PBXGroup;
+			children = (
+				95386D071C8851ED00549B3A /* QRCode */,
+				95386D061C8851ED00549B3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95386D061C8851ED00549B3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95386D051C8851ED00549B3A /* QRCode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95386D071C8851ED00549B3A /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				95386D0B1C8851ED00549B3A /* AppDelegate.h */,
+				95386D0C1C8851ED00549B3A /* AppDelegate.m */,
+				95386D0E1C8851ED00549B3A /* ViewController.h */,
+				95386D0F1C8851ED00549B3A /* ViewController.m */,
+				95386D111C8851ED00549B3A /* Main.storyboard */,
+				95386D141C8851ED00549B3A /* Assets.xcassets */,
+				95386D161C8851ED00549B3A /* LaunchScreen.storyboard */,
+				95386D191C8851ED00549B3A /* Info.plist */,
+				952B542E1C89FD11001FEC1C /* SIgnal */,
+				95386D081C8851ED00549B3A /* Supporting Files */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		95386D081C8851ED00549B3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95386D091C8851ED00549B3A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95386D041C8851ED00549B3A /* QRCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95386D1C1C8851ED00549B3A /* Build configuration list for PBXNativeTarget "QRCode" */;
+			buildPhases = (
+				95386D011C8851ED00549B3A /* Sources */,
+				95386D021C8851ED00549B3A /* Frameworks */,
+				95386D031C8851ED00549B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRCode;
+			productName = QRCode;
+			productReference = 95386D051C8851ED00549B3A /* QRCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95386CFD1C8851ED00549B3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Nikolay;
+				TargetAttributes = {
+					95386D041C8851ED00549B3A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 95386D001C8851ED00549B3A /* Build configuration list for PBXProject "QRCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95386CFC1C8851ED00549B3A;
+			productRefGroup = 95386D061C8851ED00549B3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95386D041C8851ED00549B3A /* QRCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95386D031C8851ED00549B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95386D181C8851ED00549B3A /* LaunchScreen.storyboard in Resources */,
+				95386D151C8851ED00549B3A /* Assets.xcassets in Resources */,
+				952B542D1C89FD01001FEC1C /* beep.mp3 in Resources */,
+				95386D131C8851ED00549B3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95386D011C8851ED00549B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95386D101C8851ED00549B3A /* ViewController.m in Sources */,
+				95386D0D1C8851ED00549B3A /* AppDelegate.m in Sources */,
+				95386D0A1C8851ED00549B3A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95386D111C8851ED00549B3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95386D121C8851ED00549B3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95386D161C8851ED00549B3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95386D171C8851ED00549B3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95386D1A1C8851ED00549B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95386D1B1C8851ED00549B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95386D1D1C8851ED00549B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QRCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Umbrella.QRCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95386D1E1C8851ED00549B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QRCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Umbrella.QRCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95386D001C8851ED00549B3A /* Build configuration list for PBXProject "QRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95386D1A1C8851ED00549B3A /* Debug */,
+				95386D1B1C8851ED00549B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95386D1C1C8851ED00549B3A /* Build configuration list for PBXNativeTarget "QRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95386D1D1C8851ED00549B3A /* Debug */,
+				95386D1E1C8851ED00549B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95386CFD1C8851ED00549B3A /* Project object */;
+}
